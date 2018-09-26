@@ -1,7 +1,7 @@
-def reverse_each_word sentence
-      arraysentence sentence.split(' ')
+def reverse_each_word phrase
+arrayPhrase = phrase.split(' ')
 
-      reversedsentence = arraysentence.collect { |word| word.reverse}
+reversedPhrase = arrayPhrase.collect {|word| word.reverse}
 
-      reversesentence.join(' ')
-    end
+reversedPhrase.join(' ')
+end
